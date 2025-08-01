@@ -218,6 +218,26 @@
 }
 /*** Carousel End ***/
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #05a841; /* Color verde de WhatsApp */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img {
+    width: 50px; /* Ajusta el tamaño del icono */
+    height: 50px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Color verde más oscuro de WhatsApp al pasar el ratón */
+}
 
 .bg-breadcrumb {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/appointment-background.jpg);
@@ -234,6 +254,12 @@
 
 .bg-breadcrumb3 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/faciaaal.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-breadcrumb4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/tratamientos--.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
