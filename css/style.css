@@ -1,5 +1,21 @@
 
 /*** Spinner Start ***/
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+    125deg,
+    rgb(171, 175, 194),
+    rgb(79, 70, 229),
+    rgb(126, 107, 149),
+    rgb(115, 22, 241)
+  );
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
 #spinner {
     opacity: 0;
     visibility: hidden;
